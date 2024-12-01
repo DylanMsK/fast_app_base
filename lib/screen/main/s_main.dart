@@ -107,6 +107,7 @@ class MainScreenState extends State<MainScreen>
         boxShadow: [
           BoxShadow(color: Colors.black26, spreadRadius: 0, blurRadius: 10),
         ],
+
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.only(
@@ -118,7 +119,7 @@ class MainScreenState extends State<MainScreen>
           currentIndex: _currentIndex,
           selectedItemColor: context.appColors.text,
           unselectedItemColor: context.appColors.iconButtonInactivate,
-          // backgroundColor: context.appColors.appBarBackground,
+          backgroundColor: const Color.fromARGB(255, 48, 48, 48),
           onTap: _handleOnTapNavigationBarItem,
           showSelectedLabels: true,
           showUnselectedLabels: true,

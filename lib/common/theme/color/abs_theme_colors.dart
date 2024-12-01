@@ -1,3 +1,4 @@
+import 'package:fast_app_base/app.dart';
 import 'package:fast_app_base/common/constant/app_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -51,4 +52,11 @@ abstract class AbstractThemeColors {
   Color get roundedLayoutBackground => const Color.fromARGB(255, 24, 24, 24);
 
   Color get btnBackground => const Color.fromARGB(255, 48, 48, 48);
+
+  Color get unreadColor => const Color.fromARGB(255, 48, 48, 48);
+
+  Color get lessImportant => AppColors.grey;
+
+  Color get blueText => AppColors.blue;
+
 }
