@@ -113,6 +113,7 @@ flutter:
     - assets/image/flag/
     - assets/image/notification/
     - assets/image/benefit/
+    - assets/image/stock/
     - assets/image/darkmode/
     - assets/translations/
 
